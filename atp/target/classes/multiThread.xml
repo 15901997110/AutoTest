@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="multiThreadTest" parallel="classes" thread-count="2">
+    <test name="test">
+        <classes name="class1">
+            <class name="com.hry.testng.multithread.MultiThreadOnXML"></class>
+        </classes>
+        <classes name="class2">
+            <class name="com.hry.testng.multithread.MultiThreadOnXML"></class>
+        </classes>
+    </test>
+
+</suite>

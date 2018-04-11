@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testSuite">
+    <test name="login">
+        <classes>
+            <class name="com.hry.testng.suite.SuiteConfig"></class>
+            <class name="com.hry.testng.suite.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.hry.testng.suite.SuiteConfig"></class>
+            <class name="com.hry.testng.suite.PayTest"></class>
+        </classes>
+    </test>
+</suite>

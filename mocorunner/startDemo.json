@@ -1,0 +1,11 @@
+[
+  {
+    "description":"第一个mocorunner demo",
+    "request":{
+      "uri":"/mockdemo"
+    },
+    "response":{
+      "text":"第一个mock响应(text类型)!"
+    }
+  }
+]

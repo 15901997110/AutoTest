@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testSuite1">
+    <test name="groupTest">
+       <classes>
+           <class name="com.hry.testng.group.GroupOnClass1"></class>
+           <class name="com.hry.testng.group.GroupOnClass2"></class>
+           <class name="com.hry.testng.group.GroupOnClass3"></class>
+       </classes>
+    </test>
+    <test>
+        <groups>
+
+        </groups>
+    </test>
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="我的接口测试套件">
+    <test name="测试模块">
+        <classes>
+            <class name="com.tester.MyTestClass">
+                <methods>
+                    <include name="test1"></include>
+                    <include name="test2"></include>
+                    <include name="test3"></include>
+                    <include name="test4"></include>
+                    <include name="test5"></include>
+                    <include name="test6"></include>
+                    <include name="test7"></include>
+                    <include name="test8"></include>
+                    <include name="test9"></include>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <listeners>
+        <!--这是官方的报告,但是css文件不容易加载出来 -->
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>
+        <!--这是自己重新实现的-->
+        <listener class-name="com.tester.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
