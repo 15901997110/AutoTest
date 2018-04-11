@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dc0d46b-399a-4b7f-9435-82d05b6fbdbd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mocorunner/getDemo.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/atp/target/" />
@@ -512,7 +511,7 @@
       <workItem from="1523428647332" duration="7269000" />
       <workItem from="1523439251544" duration="309000" />
       <workItem from="1523439584024" duration="2054000" />
-      <workItem from="1523441865734" duration="1181000" />
+      <workItem from="1523441865734" duration="1368000" />
     </task>
     <servers />
   </component>
@@ -549,7 +548,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29503000" />
+    <option name="totallyTimeSpent" value="29690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
