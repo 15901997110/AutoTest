@@ -1,0 +1,27 @@
+[
+  {
+    "description":"模拟一个无参数的get请求",
+    "request":{
+      "uri":"/getdemo",
+      "method":"get"
+    },
+    "response":{
+      "text":"response-这是一个没有参数的get请求!"
+    }
+  },
+  {
+    "description":"模拟一个带参数的get请求,注意请求地址中必须传入?name=lunimei&age=19 这个响应才会成功",
+    "request":{
+      "uri":"/getDemoWithParam",
+      "method":"get",
+      "queries":{
+        "name":"lunimei",
+        "age":"19"
+      }
+    },
+    "response":{
+      "text":" response-这是一个有参数的get请求"
+    }
+
+  }
+]
