@@ -22,6 +22,40 @@
         "response":{
             "text":"reponse-带参数的Post请求"
         }
+    },
+    {
+        "description":"带cookie的post请求示例",
+        "request":{
+            "uri":"/postWithCookie",
+            "method":"post",
+            "cookies":{
+                "loginid":"9980eiwre"
+            }
+        },
+        "response":{
+            "json":{
+                "status":1,
+                "login":true
+            }
+        }
+    },
+    {
+        "description":"带header的post请求",
+        "request":{
+            "uri":"/postWithHeader",
+            "method":"post",
+            "headers":{
+                "context-type":"application/json;charset=utf-8"
+            },
+            "json":{
+                "login":true
+            }
+        },
+        "response":{
+            "json":{
+                "status":true,
+                "loginstatus":true
+            }
+        }
     }
-
 ]

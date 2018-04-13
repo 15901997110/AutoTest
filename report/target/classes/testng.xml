@@ -20,7 +20,9 @@
     </test>
 
     <listeners>
-        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>
+        <!--这是官方的报告,但是css文件不容易加载出来 -->
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>-->
+        <!--这是自己重新实现的-->
         <listener class-name="com.tester.ExtentTestNGIReporterListener"></listener>
     </listeners>
 </suite>

@@ -1,0 +1,28 @@
+[
+    {
+        "description":"模拟一个重定向",
+        "request":{
+            "uri":"/redirectdemo"
+        },
+        "redirectTo":"http://www.baidu.com"
+    },
+    {
+        "description":"重定向到自己写的响应上",
+        "request":{
+            "uri":"/redirect"
+        },
+        "redirectTo":"/redirect_new"
+    },
+    {
+          "description":"重定向到自己写的响应上",
+          "request":{
+              "uri":"/redirect_new"
+          },
+          "response":{
+            "json":{
+                "entity":"这是重定向后的返回"
+            }
+          }
+     }
+
+]

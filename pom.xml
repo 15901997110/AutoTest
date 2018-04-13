@@ -11,5 +11,6 @@
     <modules>
         <module>atp</module>
         <module>report</module>
+        <module>httpclientdemo</module>
     </modules>
 </project>
