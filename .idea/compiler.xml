@@ -8,13 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="httpclientdemo" />
         <module name="report" />
+        <module name="springbootdemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="atp" target="1.5" />
-      <module name="Autotest" target="1.5" />
-      <module name="httpclientdemo" target="1.5" />
-      <module name="report" target="1.5" />
+      <module name="Autotest" target="1.8" />
+      <module name="httpclientdemo" target="1.8" />
+      <module name="report" target="1.8" />
+      <module name="springbootdemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/atp/atp.iml" filepath="$PROJECT_DIR$/atp/atp.iml" />
       <module fileurl="file://$PROJECT_DIR$/httpclientdemo/httpclientdemo.iml" filepath="$PROJECT_DIR$/httpclientdemo/httpclientdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/report/report.iml" filepath="$PROJECT_DIR$/report/report.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootdemo/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo/springbootdemo.iml" />
     </modules>
   </component>
 </project>
