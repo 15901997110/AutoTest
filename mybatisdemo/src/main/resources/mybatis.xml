@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!-- <settings>全局配置参数</settings>  -->
+    <!-- 	<properties resource="db.properties"></properties> -->
+
+    <!-- 配置延迟加载 -->
+    <!-- 	<settings>
+            开启延迟加载
+            <setting name="lazyLoadingEnabled" value="true"/>
+            延迟加载方式设置为false,即消极加载(默认是true)
+            <setting name="aggressiveLazyLoading" value="false"/>
+        </settings> -->
+
+    <!-- 针对单个别名定义
+    type：类型的路径
+    alias：别名
+     -->
+    <!-- <typeAlias type="cn.luqiwei.po.User" alias="user"/> -->
+
+    <!-- 批量扫描别名   (推荐)
+    指定包名，mybatis自动扫描包中的po类，自动定义别名，别名就是类名（首字母大写或小写都可以）
+    -->
+    <typeAliases>
+        <package name="cn.tester.model"/>
+    </typeAliases>
+
+    <!-- 和spring整合后 environments配置将废除-->
+    <!-- 	<environments default="development">
+            <environment id="development">
+            使用jdbc事务管理
+                <transactionManager type="JDBC" />
+            数据库连接池
+                <dataSource type="POOLED">
+                    <property name="driver" value="${jdbc.driver}" />
+                    <property name="url" value="${jdbc.url}" />
+                    <property name="username" value="${jdbc.username}" />
+                    <property name="password" value="${jdbc.password}" />
+                </dataSource>
+            </environment>
+        </environments> -->
+
+    <!--使用自动扫描器时，mapper.xml文件如果和mapper.java接口在一个目录则此处不用定义mappers -->
+    <!-- 	<mappers>
+            <package name="cn.ssm.mapper" />
+        </mappers> -->
+    <mappers>
+        <mapper resource="classpath:mapper/User.xml"></mapper>
+    </mappers>
+</configuration>

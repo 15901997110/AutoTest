@@ -18,5 +18,6 @@
         <module>report</module>
         <module>httpclientdemo</module>
         <module>springbootdemo</module>
+        <module>mybatisdemo</module>
     </modules>
 </project>

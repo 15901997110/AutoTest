@@ -13,7 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.Objects;
 
 @RestController
-@Api(value="/",description = "这是我全部的get方法")
+@Api(value="GetFacade",description = "这是我全部的get方法")
+@RequestMapping(value = "/GetFacade")
 public class MyGetMethod {
     @RequestMapping(value = "/getCookeis", method = RequestMethod.GET)
     @ApiOperation("访问得到Cookies信息")
