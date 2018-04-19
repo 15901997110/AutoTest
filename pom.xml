@@ -19,5 +19,6 @@
         <module>httpclientdemo</module>
         <module>springbootdemo</module>
         <module>mybatisdemo</module>
+        <module>casedemo</module>
     </modules>
 </project>

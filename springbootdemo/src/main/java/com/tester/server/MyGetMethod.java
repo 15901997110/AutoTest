@@ -16,7 +16,7 @@ import java.util.Objects;
 @Api(value="GetFacade",description = "这是我全部的get方法")
 @RequestMapping(value = "/GetFacade")
 public class MyGetMethod {
-    @RequestMapping(value = "/getCookeis", method = RequestMethod.GET)
+    @RequestMapping(value = "/getCookies", method = RequestMethod.GET)
     @ApiOperation("访问得到Cookies信息")
     public String getCookies(HttpServletResponse response) {
         Cookie login = new Cookie("login", "lunimei-true");
