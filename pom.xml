@@ -20,6 +20,7 @@
         <module>springbootdemo</module>
         <module>mybatisdemo</module>
         <module>casedemo</module>
-<!--        <module>finalversion</module>-->
+        <module>mywebapp</module>
+        <!--        <module>finalversion</module>-->
     </modules>
 </project>
